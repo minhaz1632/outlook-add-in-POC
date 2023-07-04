@@ -115,7 +115,7 @@ startButton.addEventListener(
 stopButton.addEventListener(
   "click",
   () => {
-    // preview.srcObject = null;
+    preview.srcObject = null;
     stop(preview.srcObject);
   },
   false

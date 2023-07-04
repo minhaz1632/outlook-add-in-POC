@@ -27,15 +27,16 @@
             your add-in to see app body.</h2>
     </section>
     <main id="app-body" class="ms-welcome__main" style="display: none;">
-        <div class="left">
+        <div class="left" style="width: 100%;">
             <button id="startButton" class="button">Start Recording</button>
             <h2>Preview</h2>
-            <video id="preview" width="160" height="120" autoplay muted></video>
+            <video id="preview" width="160" height="120" autoplay muted style="background-color: black;"></video>
         </div>
-        <div class="right">
+        <div class="right" style="width: 100%;">
             <button id="stopButton" class="button">Stop Recording</button>
             <h2>Recording</h2>
             <video id="recording" width="160" height="120" controls></video>
+            <br />
             <a id="downloadButton" class="button"> Download </a>
         </div>
 
